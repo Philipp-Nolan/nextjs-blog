@@ -5,6 +5,11 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    customForms: {
+
+    }
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/custom-forms'),
+  ],
 };
